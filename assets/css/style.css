@@ -1,0 +1,162 @@
+/*
+	Author: Armando Gautreaux
+	Template: Bootstrap-Portfolio
+	Version: 0.1
+	GITHUB: https://github.com/armandogautreaux
+*/
+
+/* TABLE OF CONTENTS
+
+	1.   General Styles
+  2.   Main Header
+  2.1  Logo
+  2.2  Navigation
+  3.   Main Content
+	3.1  Page Title
+	4.   Main Footer
+	5.   Portfolio
+
+*/
+
+/*
+  ========================================
+  1. General Styles
+  ========================================
+*/
+
+body {
+  background: url('../images/background.jpg');
+  color: #777;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+a {
+  color: #777;
+}
+
+a:hover {
+  color: #4aaaa5;
+  text-decoration: none;
+}
+
+.bg-teal {
+  background: #4aaaa5;
+}
+
+.btn {
+  background: #4aaaa5;
+}
+
+/*
+  ========================================
+  2. Main Header
+  ========================================
+*/
+
+header {
+  border-bottom: 2px solid #cccccc;
+}
+
+/*
+  ========================================
+  2.1 Logo
+  ========================================
+*/
+
+.logo:hover {
+  background: #666;
+  text-decoration: none;
+}
+
+/*
+  ========================================
+  2.2 Navigation
+  ========================================
+*/
+
+.n-link {
+  border-right: 1px solid lightgrey;
+}
+
+.n-link:last-child {
+  border-right: 0;
+}
+
+.active {
+  color: #4aaaa5;
+}
+
+/*
+  ========================================
+  3. Main content
+  ========================================
+*/
+
+.main p {
+  line-height: 2.5;
+}
+
+.border-main {
+  border: 1px solid #ddd;
+}
+
+/*
+  ========================================
+  3.1 Page Title
+  ========================================
+*/
+
+.heading-font {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #4aaaa5;
+}
+
+.title-border {
+  border-bottom: 3px solid #d9d9d9;
+}
+
+/*
+  ========================================
+  4. Main Footer
+  ========================================
+*/
+
+footer {
+  height: 60px;
+  font-size: 14px;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
+footer a {
+  color: #d8d8d8;
+}
+
+/*
+  ========================================
+  5. Portfolio
+  ========================================
+*/
+
+.img-wrap {
+  position: relative;
+}
+
+.img-caption {
+  background-color: #4aaaa5;
+  width: 100%;
+  height: 60px;
+  bottom: 10px;
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  text-align: center;
+  line-height: 60px;
+}
+
+.img-caption h3 {
+  font-size: 24px;
+  color: #fff;
+}
